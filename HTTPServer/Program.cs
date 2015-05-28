@@ -65,7 +65,7 @@ namespace HTTPServer
             WriteStringInStream( Str, @"<html><body><h1>Задание!</h1><br/>");
             WriteStringInStream( Str, @"<i>Что за человек на фотографии? Не знаешь? Он где-то в зале!</i> <br/>");
             WriteStringInStream(Str, @"<i>Найди и попробуй узнать как его зовут!!</i> <br/>");
-            WriteStringInStream(Str, @"<img src=" + fadress + "\\" + name + @" alt=""подсказывать не буду"" width=""600"">");
+            WriteStringInStream(Str, @"<img src=" + fadress + "\\" + name + @" alt=""подсказывать не буду"" width=""300"">");
             WriteStringInStream( Str, @"<form method=post enctype=multipart/form-data action=/answ:"+qn+":"+Element.ToString()+">");
             WriteStringInStream( Str, @"<input type=""text"" name=""textfield"" /><br />");
             WriteStringInStream( Str, @"<input type=submit value=Продолжить file/>");
